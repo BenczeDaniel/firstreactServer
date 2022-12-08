@@ -4,7 +4,6 @@ import { configDB } from "../configDB.js";
 import { upload,removeFromCloud } from "../cloudinary.js";
 import fs from 'fs'
 import path from "path";
-
 const db=mysql.createConnection(configDB)
 //ideiglenes login:
 
